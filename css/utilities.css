@@ -1,0 +1,70 @@
+/* Text Colors */
+.text-primary {
+  color:#28a745;
+}
+
+.text-secondary {
+ color: #0284d0;
+}
+
+ .btn {
+  padding: 5px;
+  border-radius: 5px;
+  background: #28a745;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 0.75;
+  }
+
+/* Icons */
+.icons {
+  padding: 30px;
+}
+
+.icons h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.icons i {
+  background: #28a745;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Flex Items  */
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.flex-items > div {
+  padding: 20px;
+}
+
+/* Flex Columns */
+.flex-columns .row {
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
+}
+
+.flex-columns .colomn {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-colomns .column .column-1, 
+.flex-colomns .column .column-2 {
+  height: 100%;
+}
